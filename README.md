@@ -16,7 +16,7 @@ java
 
 eclipse tutorial
 
-Unit testing 
+Unit testing - 
 Testing a specific unit of code e.g., a function
 Tests a small part of code that is already scripted. Remove syntax errors (code walkthrough to make sure it runs) 
 You do look at the script line by line (white box). 
