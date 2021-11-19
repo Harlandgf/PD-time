@@ -2,17 +2,17 @@
 
 * Tests in jest
 
-test("that waterLevel decreases after drought", () => {
+`test("that waterLevel decreases after drought", () => {
     index.yew.waterLevel = 25
     index.yew.drought()
     expect(index.yew.waterLevel).toBe(0)
-})
+})`
 
-test("that leaves fall for autumn", () => {
+`test("that leaves fall for autumn", () => {
     index.birch.leaves = 200
     index.birch.autumn()
     expect(index.birch.leaves).toBe(50)
-})
+})`
 
 
 
@@ -41,7 +41,7 @@ Rm -r this deletes things permanently
 
 * extra html css work 
 
-function myFunction() {
+`function myFunction() {
     var element = document.getElementById("change");
     var form = document.getElementById("form");
     var button = document.getElementById("button");
@@ -50,7 +50,7 @@ function myFunction() {
     element.classList.remove("notActive");
     button.classList.add("notActive");
     form.classList.add("notActive");
-  }
+  }`
 
 
 
@@ -102,24 +102,24 @@ Junit can be used to automate.
 
 * Scopes, var, let, const
 
-var tester = "hey hi";
+`var tester = "hey hi";
     
     function newFunction() {
         var hello = "hello";
     }
-    console.log(hello); // error: hello is not defined
+    console.log(hello); // error: hello is not defined`
 
-let greeting = "say Hi";
+`let greeting = "say Hi";
    let times = 4;
 
    if (times > 3) {
         let hello = "say Hello instead";
         console.log(hello);// "say Hello instead"
     }
-   console.log(hello) // hello is not defined
+   console.log(hello) // hello is not defined`
 
-const greeting = "say Hi";
-    greeting = "say Hello instead";// error: Assignment to constant variable. 
+`const greeting = "say Hi";
+    greeting = "say Hello instead";// error: Assignment to constant variable. `
 
 * Switch cases
 
@@ -129,12 +129,12 @@ runnin the same tests from jest but with jasmine and looking at differences and 
 
 * jest in python
 
-"jest": {
+`"jest": {
     "moduleFileExtensions": ["py"],
     "runner": "jest-pytest",
     "testPathIgnorePatterns": [],
     "testMatch": ["**/test_*.py"]
-}
+}`
 
 * Python videos (Corey schaefer)
 
